@@ -15,13 +15,15 @@ public class BinarySearch {
                 end = mid - 1;
             }
             mid = (start + end) / 2;
+            count++;
         }
+        if((count==0))
         System.out.println("not found");
     }
 
     public static void main(String[] args) {
         int num[] = { 4, 5, 6, 7,8,9,10 };
-        int target = 10;
+        int target = 0;
         Search(num, target);
 
     }
