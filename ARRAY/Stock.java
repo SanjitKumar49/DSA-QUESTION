@@ -9,15 +9,11 @@ public class Stock {
             } else {
                 buyprize = price[i];
             }
-
         }
         System.out.println(maxprofit);
-
-
     }
-
     public static void main(String[] args) {
-        int num[] = {  };
+        int num[] = { 7, 1, 5, 3, 6, 4 };
         StockSelling(num);
     }
 }

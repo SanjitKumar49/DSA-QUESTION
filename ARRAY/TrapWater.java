@@ -1,5 +1,3 @@
-8import javax.lang.model.element.ElementKind;
-
 public class TrapWater {
     public static void whatTrap(int water[]) {
         int n = water.length;
@@ -45,7 +43,7 @@ System.out.println(res);
     }
 
     public static void main(String[] args) {
-        int num[] = { 4, 2, 0, 6, 3, 2, 5 };
+        int num[] = {0,1,0,2,1,0,1,3,2,1,2,1};
         whatTrap(num);
     }
 
