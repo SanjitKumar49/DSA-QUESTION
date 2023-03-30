@@ -8,25 +8,25 @@ public class SpiralDemp {
             // j=colum, i=row
             // top
             for (int j = colstart; j <= colend; j++) {
-                System.out.print(data[rowstrat][j] + "");
+                System.out.print(data[rowstrat][j] + ",");
             }
             // right
             for (int i = rowstrat + 1; i <= rowend; i++) {
-                System.out.print(data[i][colend] + "");
+                System.out.print(data[i][colend] + ",");
             }
             // buttom
             for (int j = colend - 1; j >= colstart; j--) {
                 if (rowstrat == rowend) {
                     break;
                 }
-                System.out.print(data[rowend][j] + "");
+                System.out.print(data[rowend][j] + ",");
             }
             // left
             for (int i = rowend - 1; i >= rowstrat + 1; i--) {
                 if (colstart == colend) {
                     break;
                 }
-                System.out.print(data[i][colstart] + "");
+                System.out.print(data[i][colstart] +",");
             }
             rowstrat++;
             rowend--;

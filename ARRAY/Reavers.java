@@ -5,7 +5,5 @@ public class Reavers{
     {
         System.out.print(num[i]+",");
     }
-
-    
-    }
+}
 }

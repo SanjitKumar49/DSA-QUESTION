@@ -9,10 +9,12 @@ public class ClearIth {
         int i = in.nextInt();
         int bitmass = ~(1 << i);
 
-        if ((num&bitmass) == 0) {
-            System.out.println(0);
-        } else {
-           System.out.println(1);
-        }
-}}
+        // if ((num&bitmass) == 0) {
+        //     System.out.println(0);
+        // } else {
+        //    System.out.println(1);
+        // }
+        System.out.println(num&bitmass);
+}
+}
 
