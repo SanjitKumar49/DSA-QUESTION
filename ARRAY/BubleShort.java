@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class BubleShort {
     public static void main(String[] args) {
         int flag=0;
-        int nums[]={1,2,3,4};
+        int nums[]={1,90,76,2,34,21,10};
         for(int i=0; i<nums.length; i++){
             for(int j=0; j<nums.length-i-1; j++){
                 

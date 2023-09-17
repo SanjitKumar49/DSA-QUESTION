@@ -19,6 +19,7 @@ public class knapSack {
             dp[n][w] = knapsack(val, wt, w, n - 1, dp);
             return dp[n][w];
         }
+        
     }
 
     public static int knapsackTab(int val[], int wt[], int W) {

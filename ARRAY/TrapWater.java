@@ -25,25 +25,25 @@ public class TrapWater {
          * System.out.println(trappedwater);
          * }
          */
-        int res = 0, left = 0, right = n - 1;
-        int leftmax = water[left], rightmax = water[right];
-        while (left < right) {
-            if (leftmax < rightmax) {
-                left++;
-                leftmax = Math.max(leftmax, water[left]);
-                res += leftmax - water[left];
-            } else {
-                right--;
-                rightmax = Math.max(rightmax, water[right]);
-                res += rightmax - water[right];
+//         int res = 0, left = 0, right = n - 1;
+//         int leftmax = water[left], rightmax = water[right];
+//         while (left < right) {
+//             if (leftmax < rightmax) {
+//                 left++;
+//                 leftmax = Math.max(leftmax, water[left]);
+//                 res += leftmax - water[left];
+//             } else {
+//                 right--;
+//                 rightmax = Math.max(rightmax, water[right]);
+//                 res += rightmax - water[right];
 
-            }
-        }
-System.out.println(res);
-    }
+//             }
+//         }
+// System.out.println(res);
+//     }
 
     public static void main(String[] args) {
-        int num[] = {0,1,0,2,1,0,1,3,2,1,2,1};
+        int num[] = {1,1};
         whatTrap(num);
     }
 
