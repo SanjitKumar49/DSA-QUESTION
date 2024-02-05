@@ -1,0 +1,6 @@
+step1-> download  MinGW 
+step2-> set the path in enviroment veriable(system path)
+step2->open file in cmd and then 
+            gcc filename.c
+            filename
+        
